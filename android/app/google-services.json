@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "309073987918",
+    "project_id": "to-do-cfc8c",
+    "storage_bucket": "to-do-cfc8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309073987918:android:eb6786a3c3fc5f4b9c761f",
+        "android_client_info": {
+          "package_name": "com.example.firbase_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADs7Fbyo-65nDnSNi7KllLPWQz-O2UcN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
