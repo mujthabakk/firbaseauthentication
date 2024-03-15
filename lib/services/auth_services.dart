@@ -20,7 +20,7 @@ class AuthService {
     return auth.signOut();
   }
 
-    static Future<UserCredential> login(
+  static Future<UserCredential> login(
       {required String emailAddress, required String password}) {
     try {
       return auth.signInWithEmailAndPassword(
@@ -31,6 +31,4 @@ class AuthService {
       throw AuthExaption(error: e.message);
     }
   }
-
-
 }
