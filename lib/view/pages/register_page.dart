@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firbase_1/pages/homepage.dart';
-import 'package:firbase_1/pages/login_page.dart';
-import 'package:firbase_1/widget/textfild.dart';
+import 'package:firbase_1/view/pages/homepage.dart';
+import 'package:firbase_1/view/pages/widget/textfild.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -10,9 +9,9 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController emailController = TextEditingController();
-    TextEditingController passController = TextEditingController();
-    TextEditingController nameController = TextEditingController();
+    TextEditingController emailController = TextEditingController(text: "mujthaba@gmail.com");
+    TextEditingController passController = TextEditingController(text:"12345678");
+    TextEditingController nameController = TextEditingController(text: 'mujthaba');
     final formkey = GlobalKey<FormState>();
     return Scaffold(
       body: Form(

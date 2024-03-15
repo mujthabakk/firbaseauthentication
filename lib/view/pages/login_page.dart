@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:firbase_1/pages/Homepage.dart';
-import 'package:firbase_1/pages/register_page.dart';
-import 'package:firbase_1/widget/textfild.dart';
+import 'package:firbase_1/view/pages/Homepage.dart';
+import 'package:firbase_1/view/pages/register_page.dart';
+import 'package:firbase_1/view/pages/widget/textfild.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
